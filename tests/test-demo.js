@@ -1,8 +1,8 @@
-const thriftParser = require('../thrift-parser');
+const thriftParser = require('../parser');
 const assert = require('assert');
 const expection = require('./test-demo.expection.json');
 
-let ast = thriftParser(`
+var ast = thriftParser(`
 
 struct MyStruct {
     1: required int id,

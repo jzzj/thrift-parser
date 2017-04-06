@@ -1,9 +1,9 @@
 {
   "name": "thrift-parser",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "To parse thrift file to a AST.",
-  "main": "thrift-parser.js",
-  "author": "rongyi.liu@ele.me",
+  "main": "parser.js",
+  "author": "zangzhan",
   "license": "MIT",
   "scripts": {
     "test": "cd tests && ./test.sh"
